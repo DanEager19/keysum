@@ -1,0 +1,6 @@
+{
+    "dir": "keys",
+    "key": "key.txt",
+    "checks": "check_*.txt",
+    "scored_file": "static/index.html"
+}
