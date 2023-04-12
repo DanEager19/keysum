@@ -1,6 +1,6 @@
 {
-    "dir": "keys",
+    "dir": "/home/srv/keys",
     "key": "key.txt",
     "checks": "check_*.txt",
-    "scored_file": "static/index.html"
+    "scored_file": "/var/www/index/index.html"
 }
