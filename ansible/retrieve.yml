@@ -1,6 +1,5 @@
 - name: Retrieve keys from nodes
-  hosts: sshservers
-  remote_user: root
+  hosts: servers
 
   tasks:
   - name: Fetch checks from nodes to server

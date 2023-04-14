@@ -1,6 +1,5 @@
 - name: Distribute keys to nodes
-  hosts: sshservers
-  remote_user: root
+  hosts: servers
 
   tasks:
   - name: Copy key from server to nodes 
