@@ -6,3 +6,4 @@
     ansible.builtin.fetch:
       src: /home/node/check.txt
       dest: /home/srv/keys/check_{{ ansible_hostname }}.txt
+      flat: yes
