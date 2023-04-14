@@ -1,14 +1,3 @@
-
-- name: Distribute keys to nodes
-  hosts: sshservers
-  remote_user: root
-
-  tasks:
-  - name: Copy key from server to nodes 
-    ansible.builtin.copy:
-      src: /home/srv/keys/key.txt
-      dest: /home/node/check.txt
-      
 - name: Retrieve keys from nodes
   hosts: sshservers
   remote_user: root
