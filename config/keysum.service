@@ -1,0 +1,11 @@
+[Unit]
+Description=Keysum Cleaner
+After=multi-user.target
+
+[Service]
+ExecStart=/usr/bin/ruby scripts/verify_file.rb
+Type=simple
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
