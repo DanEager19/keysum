@@ -3,7 +3,7 @@ Description=Keysum Cleaner
 After=multi-user.target
 
 [Service]
-ExecStart=/usr/bin/ruby scripts/verify_file.rb
+ExecStart=/usr/bin/ruby verify_file.rb
 Type=simple
 Restart=always
 

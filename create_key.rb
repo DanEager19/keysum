@@ -1,7 +1,7 @@
 #!/usr/bin/ruby
 require 'json'
 
-json_data = JSON.parse(File.read('../config/file_input.json').strip)
+json_data = JSON.parse(File.read('./config/file_input.json').strip)
 dir = json_data['dir']
 key = json_data['key']
 

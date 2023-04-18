@@ -2,7 +2,7 @@
 require 'time'
 
 while true
-    file_time = File.mtime('../config/counter.txt')
+    file_time = File.mtime('./config/counter.txt')
     now_time = Time.now
 
     minute_diff = (now_time - file_time).to_i / 60 
